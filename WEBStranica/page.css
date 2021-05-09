@@ -87,7 +87,9 @@ content:"";
     width: 100%;
 }
 
-
+.h{
+  width: 600px;
+}
  
 .lijevi{
     background-color: rgb(255, 242, 204);
@@ -201,9 +203,9 @@ text-shadow: 1px 1px black;
     }
     .slikagrad{
 
-     width:80%;
-     height:65%;
-     margin:10%;
+     
+    
+     margin:4px;
        border: 3px solid white;
       
        box-shadow: 5px 10px;
@@ -221,9 +223,8 @@ text-shadow: 1px 1px black;
     .size{
            
 
-        background-color: rgb(255, 242, 204);
-        
-        height:50%;
+        background-color: rgb(237, 60, 178);
+        height: 100%;
     }
   
     .slikagradd{
@@ -725,8 +726,8 @@ color: white;
               .slikagradres{
 
                        
-        width:50%;
-        height:40%;
+        width:60%;
+        height:20%;
         margin-top:120px;
         border: 3px solid white;
         box-shadow: 5px 10px;
@@ -736,7 +737,7 @@ color: white;
               img.slikagradres:hover{
 
                 cursor: pointer;
-                    transform: scale(1.7,1.7);
+                    transform: scale(1.2,1.2);
                   }
                   a.icone i{
 
