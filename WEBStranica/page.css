@@ -8,11 +8,22 @@ box-sizing: border-box;
     
 }
 .container{
-  display: flex;
+  display: inline-block;
   background-color: rgb(174, 136, 88);
   height: 86%;
 }
-
+.section3{
+  text-align: center;
+  padding: 20px;
+}
+.section4{
+  text-align: center;
+  padding: 20px;
+}
+.section5{
+  text-align: center;
+  padding: 20px;
+}
 /* Track */
 ::-webkit-scrollbar-track {
     background: rgb(25, 25, 31);
@@ -35,12 +46,31 @@ body{
 }
 .row{
 
-display: flex;
+ display: flex;
 width: 100%;
 }
 .twn{
   background-color: azure;
   height: 40%;
+  width: 100%;
+ 
+}
+.twng{
+  height: 50%;
+}
+.section1{
+  text-align: center;
+  padding: 20px;
+  
+}
+.section2{
+  text-align: center;
+  padding: 20px;
+  
+}
+h3{
+  color: #000;
+  text-decoration: none!;
 }
 .row::after{
 display: block;
@@ -222,7 +252,11 @@ text-shadow: 1px 1px black;
     }
     .slikakrupa{
 
-        margin-top:0px;
+        margin-top:7px;
+        color: #000;
+    }
+    p{
+      color: #000;
     }
 
     .paragraf{
