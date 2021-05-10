@@ -9,7 +9,7 @@ box-sizing: border-box;
 }
 .container{
   display: inline-block;
-  background-color: rgb(174, 136, 88);
+ 
   height: 86%;
 }
 .section3{
@@ -56,7 +56,9 @@ width: 100%;
  
 }
 .twng{
+  
   height: 50%;
+  background-color:rgb(235, 235, 235);
 }
 .section1{
   text-align: center;
